@@ -1,0 +1,16 @@
+//内置对象，Math对象
+/*
+with运算符
+with(对象名){
+//用方法和属性可以不加对象名
+}
+*/
+console.log(Math.pow(5,2));
+console.log(Math.sqrt(5));
+console.log(Math.exp(5));
+console.log(Math.log(5));
+console.log(Math.sin(5));
+console.log(Math.cos(5));
+console.log(Math.tan(5));
+console.log(Math.max(5,1,4,6));
+console.log(Math.min(7,3));
