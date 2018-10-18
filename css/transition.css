@@ -1,0 +1,16 @@
+/*过渡效果实现css3*/
+div{
+    background: rgba(104, 17, 255, 0.3);
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    transition-property: background-color,width,height,transform;
+    transition-duration: 1s,1s,1s,1s;
+}
+div:hover{
+    background: rgba(255, 0, 98, 0.3);
+    width: 150px;
+    height: 150px;
+    transform: rotate(360deg);
+}
