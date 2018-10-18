@@ -1,0 +1,42 @@
+div{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(147,255,0,0.3);
+    position: relative;
+    border-radius: 10px;
+}
+div:hover{
+    -webkit-animation: app1 3s 1;
+}
+@-webkit-keyframes app1 {
+    0%{
+        background-color: rgba(147, 255, 0, 0.3);
+        transform: rotate(0deg);
+        left: 0px;
+    }
+    25%{
+        background-color: rgba(0, 44, 255, 0.4);
+        transform: rotate(30deg);
+        left: 200px;
+    }
+    50%{
+        background-color: rgba(0, 178, 255, 0.4);
+        transform: rotate(30deg);
+        left: 350px;
+    }
+    51%{
+        background-color: rgba(1,178,255,0.4);
+        transform: rotate(360deg);
+        left: 350px;
+    }
+    75%{
+        background-color: rgba(255, 0, 204, 0.2);
+        transform: rotate(40deg);
+        left: 180px;
+    }
+    100%{
+        background-color: rgba(151, 74, 255, 0.3);
+        transform: rotate(320deg);
+        left: 0px;
+    }
+}
