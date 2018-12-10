@@ -1,0 +1,13 @@
+{
+    "author": "小川",
+    "manifest_version": 2,
+    "name": "去除时间限制插件",
+    "version": "1.0",
+    "description": "四川大学评教去除时间限制",
+    "content_scripts": [
+        {
+            "matches":["http://zhjw.scu.edu.cn/student/teachingEvaluation/teachingEvaluation/evaluationPage"],
+            "js":["js/main.js"]
+        }
+    ]
+}
